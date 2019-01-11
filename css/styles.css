@@ -212,16 +212,12 @@ body {
   color: blue;
 }
 
-#container {
-  width: 900px;
+@media screen and (max-width: 600px) {
+  
+  body {
+  background-color: white;
   margin: 0 auto;
 }
-
-@media screen and (max-width: 600px) {
-
-  #container {
-    width: 100%;
-  }
 
   .menu {
     height: 100px;
