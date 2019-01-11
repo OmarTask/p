@@ -214,208 +214,216 @@ body {
 
 @media screen and (max-width: 600px) {
   
-  body {
+ body {
   background-color: white;
   margin: 0 auto;
 }
 
-  .menu {
-    height: 100px;
-    line-height: 15px;
-    background-color: white;
-    position: relative;
-    border-radius: 50px;
-    position: fixed;
-    width: 300px;
-    height: 50px;
-    left: 17%;
-    top: 50px;
-  }
+.name {
+  font-family: sans-serif;
+  position: absolute;
+  display: inline;
+  left: 500px;
+  bottom: 50px;
+}
 
-  #about {
-    font-family: sans-serif;
-    position: fixed;
-    left: 100px;
-    text-decoration: none;
-    color: black;
-    font-size: 0.9rem;
-  }
+.oneitem {
+  background-color: #17caea;
+  height: 200px;
+  width: 20%;
+  border-radius: 20px;
+  position: absolute;
+  left: 41%;
+}
 
-  #contact {
-    position: fixed;
-    left: 180px;
-    font-family: sans-serif;
-    text-decoration: none;
-    color: black;
-    font-size: 0.9rem;
-  }
+.menu {
+  height: 100px;
+  line-height: 15px;
+  background-color: white;
+  position: relative;
+  border-radius: 50px;
+  position: fixed;
+  width: 17.5%;
+  height: 50px;
+  left: 40%;
+  top: 50px;
+}
 
-  #download {
-    font-family: sans-serif;
-    position: fixed;
-    text-decoration: none;
-    color: black;
-    left: 275px;
-    font-size: 0.9rem;
-  }
+.begin {
+  line-height: 1300px;
+  height: 1300px;
+  background-color: #15c2f2;
+  position: relative;
+}
 
-  .circle {
-    height: 300px;
-    width: 300px;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    left: 80px;
-    top: 215px;
-    box-shadow: 0px 0px 50px black;
-  }
+.face {
+  height: auto;
+  width: auto;
+  max-width: 250px;
+  max-height: 250px;
+  position: absolute;
+  top: 250px;
+  left: 500px;
+}
 
-  .face {
-    height: auto;
-    width: auto;
-    max-width: 250px;
-    max-height: 250px;
-    position: absolute;
-    top: 250px;
-    left: 140px;
-  }
+#contact {
+  position: fixed;
+  left: 1040px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: black;
+}
 
-  #bio {
-    font-family: sans-serif;
-    position: absolute;
-    left: 40px;
-    font-size: 1.2rem;
-    bottom: 30px;
-  }
+#contact:hover {
+  color: blue;
+}
 
-  #mountain {
-    height: auto;
-    width: auto;
-    max-width: 500px;
-    max-height: 500px;
-    position: absolute;
-    left: 5px;
-    top: 800px;
-  }
+#cloud1 {
+  height: auto;
+  width: auto;
+  max-width: 200px;
+  max-height: 200px;
+  position: absolute;
+  left: 200px;
+  top: 20px;
+}
 
-  #cloud1 {
-    height: auto;
-    width: auto;
-    max-width: 150px;
-    max-height: 150px;
-    position: absolute;
-    left: 10px;
-    top: 200px;
-  }
+#mountain {
+  height: auto;
+  width: auto;
+  max-width: 1000px;
+  max-height: 1000px;
+  position: absolute;
+  left: 800px;
+  top: 200px;
+}
 
-  #cloud2 {
-    height: auto;
-    width: auto;
-    max-width: 200px;
-    max-height: 200px;
-    position: absolute;
-    left: 220px;
-    top: 950px;
-  }
+.grass {
+  height: 300px;
+  background-color: #65db55;
+  position: relative;
+  top: 1200px;
+}
 
-  #cloud3 {
-    height: auto;
-    width: auto;
-    max-width: 150px;
-    max-height: 150px;
-    position: absolute;
-    left: 280px;
-    top: 420px;
-  }
+.circle {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 435px;
+  top: 215px;
+  box-shadow: 0px 0px 50px black;
+}
 
+#bio {
+  font-family: sans-serif;
+  position: absolute;
+  left: 360px;
+  font-size: 1.5rem;
+}
 
-  .grass {
-    height: 300px;
-    background-color: #65db55;
-    position: relative;
-    top: 1200px;
-    width: 100%
-  }
+#cloud2 {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 500px;
+  position: absolute;
+  left: 1400px;
+  top: 500px;
+}
 
-  #circle2 {
-    height: 400px;
-    width: 400px;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    background-color: #1a5a84;
-    left: 20px;
-    top: 1650px;
-  }
+#cloud3 {
+  height: auto;
+  width: auto;
+  max-width: 100px;
+  max-height: 100px;
+  position: absolute;
+  left: 2000px;
+  top: 200px;
+}
 
-  #programming {
-    height: auto;
-    width: auto;
-    max-width: 300px;
-    max-height: 300px;
-    position: absolute;
-    left: 70px;
-    top: 1710px;
-  }
+#programming {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 500px;
+  position: absolute;
+  left: 300px;
+  top: 1750px;
+}
 
-  .h1 {
-    font-family: sans-serif;
-    position: absolute;
-    top: 1450px;
-    left: 115px;
-  }
+#circle2 {
+  height: 700px;
+  width: 700px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  background-color: #1a5a84;
+  left: 200px;
+  top: 1650px;
+}
 
-  .h2 {
-    font-family: sans-serif;
-    position: absolute;
-    top: 1550px;
-    left: 20px;
-    font-size: 1.1rem;
-  }
+.h1 {
+  font-family: sans-serif;
+  position: absolute;
+  top: 1750px;
+  left: 450px;
+}
 
-  #books {
-    height: auto;
-    width: auto;
-    max-width: 400px;
-    max-height: 400px;
-    position: absolute;
-    top: 2400px;
-    left: 20px;
-  }
+.h2 {
+  font-family: sans-serif;
+  position: absolute;
+  top: 1900px;
+  left: 100px;
+}
 
-  .h3 {
-    font-family: sans-serif;
-    position: absolute;
-    top: 2200px;
-    left: 110px;
-  }
+#books {
+  height: auto;
+  width: auto;
+  max-width: 700px;
+  max-height: 700px;
+  position: absolute;
+  top: 1650px;
+  left: 1650px;
+}
 
-  .h4 {
-    font-family: sans-serif;
-    position: absolute;
-    top: 2300px;
-    left: 30px;
-    font-size: 1.1rem;
-  }
+.h3 {
+  font-family: sans-serif;
+  position: absolute;
+  top: 1750px;
+  left: 1900px;
+}
 
-  #about:hover {
-    color: blue;
-  }
+.h4 {
+  font-family: sans-serif;
+  position: absolute;
+  top: 1900px;
+  left: 1700px;
+}
 
-  #download:hover {
-    color: blue;
-  }
+#about {
+  font-family: sans-serif;
+  position: fixed;
+  left: 1200px;
+  text-decoration: none;
+  color: black;
+}
 
-  #contact:hover {
-    color: blue;
-  }
+#about:hover {
+  color: blue;
+}
 
-  .begin {
-    line-height: 1300px;
-    height: 1300px;
-    background-color: #15c2f2;
-    position: relative;
-    width: 100%;
-  }
+#download {
+  font-family: sans-serif;
+  position: fixed;
+  text-decoration: none;
+  color: black;
+  left: 1350px;
+}
+
+#download:hover {
+  color: blue;
+}
